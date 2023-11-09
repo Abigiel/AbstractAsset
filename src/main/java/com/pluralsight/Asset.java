@@ -35,7 +35,5 @@ public abstract class Asset {
     public void setOriginalCost(double originalCost) {
         this.originalCost = originalCost;
     }
-    public double getValue(){
-        return originalCost;
-    }
+    public abstract double getValue();
 }
